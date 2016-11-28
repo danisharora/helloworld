@@ -1,0 +1,308 @@
+[2016-11-15 12:00:37,010] INFO [Group Metadata Manager on Broker 2]: Removed 0 expired offsets in 1 milliseconds. (kafka.coordinator.GroupMetadataManager)
+[2016-11-15 12:01:46,478] INFO KafkaConfig values: 
+	advertised.host.name = null
+	metric.reporters = []
+	quota.producer.default = 9223372036854775807
+	offsets.topic.num.partitions = 50
+	log.flush.interval.messages = 9223372036854775807
+	auto.create.topics.enable = true
+	controller.socket.timeout.ms = 30000
+	log.flush.interval.ms = null
+	principal.builder.class = class org.apache.kafka.common.security.auth.DefaultPrincipalBuilder
+	replica.socket.receive.buffer.bytes = 65536
+	min.insync.replicas = 1
+	replica.fetch.wait.max.ms = 500
+	num.recovery.threads.per.data.dir = 1
+	ssl.keystore.type = JKS
+	default.replication.factor = 1
+	ssl.truststore.password = null
+	log.preallocate = false
+	sasl.kerberos.principal.to.local.rules = [DEFAULT]
+	fetch.purgatory.purge.interval.requests = 1000
+	ssl.endpoint.identification.algorithm = null
+	replica.socket.timeout.ms = 30000
+	message.max.bytes = 1000012
+	num.io.threads = 8
+	offsets.commit.required.acks = -1
+	log.flush.offset.checkpoint.interval.ms = 60000
+	delete.topic.enable = false
+	quota.window.size.seconds = 1
+	ssl.truststore.type = JKS
+	offsets.commit.timeout.ms = 5000
+	quota.window.num = 11
+	zookeeper.connect = localhost:2181
+	authorizer.class.name = 
+	num.replica.fetchers = 1
+	log.retention.ms = null
+	log.roll.jitter.hours = 0
+	log.cleaner.enable = false
+	offsets.load.buffer.size = 5242880
+	log.cleaner.delete.retention.ms = 86400000
+	ssl.client.auth = none
+	controlled.shutdown.max.retries = 3
+	queued.max.requests = 500
+	offsets.topic.replication.factor = 3
+	log.cleaner.threads = 1
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	socket.request.max.bytes = 104857600
+	ssl.trustmanager.algorithm = PKIX
+	zookeeper.session.timeout.ms = 6000
+	log.retention.bytes = -1
+	sasl.kerberos.min.time.before.relogin = 60000
+	zookeeper.set.acl = false
+	connections.max.idle.ms = 600000
+	offsets.retention.minutes = 1440
+	replica.fetch.backoff.ms = 1000
+	inter.broker.protocol.version = 0.9.0.X
+	log.retention.hours = 168
+	num.partitions = 1
+	listeners = PLAINTEXT://:9092
+	ssl.provider = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	log.roll.ms = null
+	log.flush.scheduler.interval.ms = 9223372036854775807
+	ssl.cipher.suites = null
+	log.index.size.max.bytes = 10485760
+	ssl.keymanager.algorithm = SunX509
+	security.inter.broker.protocol = PLAINTEXT
+	replica.fetch.max.bytes = 1048576
+	advertised.port = null
+	log.cleaner.dedupe.buffer.size = 524288000
+	replica.high.watermark.checkpoint.interval.ms = 5000
+	log.cleaner.io.buffer.size = 524288
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	zookeeper.connection.timeout.ms = 6000
+	controlled.shutdown.retry.backoff.ms = 5000
+	log.roll.hours = 168
+	log.cleanup.policy = delete
+	host.name = 
+	log.roll.jitter.ms = null
+	max.connections.per.ip = 2147483647
+	offsets.topic.segment.bytes = 104857600
+	background.threads = 10
+	quota.consumer.default = 9223372036854775807
+	request.timeout.ms = 30000
+	log.index.interval.bytes = 4096
+	log.dir = /tmp/kafka-logs
+	log.segment.bytes = 1073741824
+	log.cleaner.backoff.ms = 15000
+	offset.metadata.max.bytes = 4096
+	ssl.truststore.location = null
+	group.max.session.timeout.ms = 30000
+	ssl.keystore.password = null
+	zookeeper.sync.time.ms = 2000
+	port = 9092
+	log.retention.minutes = null
+	log.segment.delete.delay.ms = 60000
+	log.dirs = /tmp/kafka-logs
+	controlled.shutdown.enable = true
+	compression.type = producer
+	max.connections.per.ip.overrides = 
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	log.cleaner.io.max.bytes.per.second = 1.7976931348623157E308
+	auto.leader.rebalance.enable = true
+	leader.imbalance.check.interval.seconds = 300
+	log.cleaner.min.cleanable.ratio = 0.5
+	replica.lag.time.max.ms = 10000
+	num.network.threads = 3
+	ssl.key.password = null
+	reserved.broker.max.id = 1000
+	metrics.num.samples = 2
+	socket.send.buffer.bytes = 102400
+	ssl.protocol = TLS
+	socket.receive.buffer.bytes = 102400
+	ssl.keystore.location = null
+	replica.fetch.min.bytes = 1
+	unclean.leader.election.enable = true
+	group.min.session.timeout.ms = 6000
+	log.cleaner.io.buffer.load.factor = 0.9
+	offsets.retention.check.interval.ms = 600000
+	producer.purgatory.purge.interval.requests = 1000
+	metrics.sample.window.ms = 30000
+	broker.id = 0
+	offsets.topic.compression.codec = 0
+	log.retention.check.interval.ms = 300000
+	advertised.listeners = null
+	leader.imbalance.per.broker.percentage = 10
+ (kafka.server.KafkaConfig)
+[2016-11-15 12:01:46,604] INFO starting (kafka.server.KafkaServer)
+[2016-11-15 12:01:46,609] INFO Connecting to zookeeper on localhost:2181 (kafka.server.KafkaServer)
+[2016-11-15 12:01:46,990] INFO Loading logs. (kafka.log.LogManager)
+[2016-11-15 12:01:47,106] INFO Completed load of log __confluent.support.metrics-0 with log end offset 0 (kafka.log.Log)
+[2016-11-15 12:01:47,150] INFO Completed load of log mytopic-0 with log end offset 13 (kafka.log.Log)
+[2016-11-15 12:01:47,171] INFO Completed load of log othertopic-0 with log end offset 3 (kafka.log.Log)
+[2016-11-15 12:01:47,191] INFO Completed load of log othertopic-1 with log end offset 3 (kafka.log.Log)
+[2016-11-15 12:01:47,197] INFO Completed load of log othertopic-2 with log end offset 3 (kafka.log.Log)
+[2016-11-15 12:01:47,204] INFO Completed load of log wikipedia-0 with log end offset 0 (kafka.log.Log)
+[2016-11-15 12:01:47,209] INFO Logs loading complete. (kafka.log.LogManager)
+[2016-11-15 12:01:47,210] INFO Starting log cleanup with a period of 300000 ms. (kafka.log.LogManager)
+[2016-11-15 12:01:47,213] INFO Starting log flusher with a default period of 9223372036854775807 ms. (kafka.log.LogManager)
+[2016-11-15 12:01:47,306] INFO Awaiting socket connections on 0.0.0.0:9092. (kafka.network.Acceptor)
+[2016-11-15 12:01:47,310] INFO [Socket Server on Broker 0], Started 1 acceptor threads (kafka.network.SocketServer)
+[2016-11-15 12:01:47,357] INFO [ExpirationReaper-0], Starting  (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2016-11-15 12:01:47,360] INFO [ExpirationReaper-0], Starting  (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2016-11-15 12:01:47,540] INFO [GroupCoordinator 0]: Starting up. (kafka.coordinator.GroupCoordinator)
+[2016-11-15 12:01:47,545] INFO [ExpirationReaper-0], Starting  (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2016-11-15 12:01:47,553] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 15 milliseconds. (kafka.coordinator.GroupMetadataManager)
+[2016-11-15 12:01:47,554] INFO [ExpirationReaper-0], Starting  (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2016-11-15 12:01:47,556] INFO [GroupCoordinator 0]: Startup complete. (kafka.coordinator.GroupCoordinator)
+[2016-11-15 12:01:47,598] INFO [ThrottledRequestReaper-Produce], Starting  (kafka.server.ClientQuotaManager$ThrottledRequestReaper)
+[2016-11-15 12:01:47,599] INFO [ThrottledRequestReaper-Fetch], Starting  (kafka.server.ClientQuotaManager$ThrottledRequestReaper)
+[2016-11-15 12:01:47,612] INFO Will not load MX4J, mx4j-tools.jar is not in the classpath (kafka.utils.Mx4jLoader$)
+[2016-11-15 12:01:47,638] INFO Creating /brokers/ids/0 (is it secure? false) (kafka.utils.ZKCheckedEphemeral)
+[2016-11-15 12:01:47,652] INFO Result of znode creation is: OK (kafka.utils.ZKCheckedEphemeral)
+[2016-11-15 12:01:47,657] INFO Registered broker 0 at path /brokers/ids/0 with addresses: PLAINTEXT -> EndPoint(172.16.26.72,9092,PLAINTEXT) (kafka.utils.ZkUtils)
+[2016-11-15 12:01:47,710] INFO [Kafka Server 0], started (kafka.server.KafkaServer)
+[2016-11-15 12:01:47,947] INFO [ReplicaFetcherManager on broker 0] Removed fetcher for partitions [othertopic,0],[othertopic,2],[othertopic,1] (kafka.server.ReplicaFetcherManager)
+[2016-11-15 12:01:47,951] INFO Truncating log othertopic-1 to offset 3. (kafka.log.Log)
+[2016-11-15 12:01:47,953] INFO Truncating log othertopic-0 to offset 3. (kafka.log.Log)
+[2016-11-15 12:01:47,954] INFO Truncating log othertopic-2 to offset 3. (kafka.log.Log)
+[2016-11-15 12:01:48,017] INFO [ReplicaFetcherThread-0-2], Starting  (kafka.server.ReplicaFetcherThread)
+[2016-11-15 12:01:48,045] INFO [ReplicaFetcherThread-0-1], Starting  (kafka.server.ReplicaFetcherThread)
+[2016-11-15 12:01:48,047] INFO [ReplicaFetcherManager on broker 0] Added fetcher for partitions List([[othertopic,1], initOffset 3 to broker BrokerEndPoint(2,172.16.26.72,9094)] , [[othertopic,0], initOffset 3 to broker BrokerEndPoint(1,172.16.26.72,9093)] , [[othertopic,2], initOffset 3 to broker BrokerEndPoint(1,172.16.26.72,9093)] ) (kafka.server.ReplicaFetcherManager)
+[2016-11-15 12:01:48,059] INFO Partition [othertopic,1] on broker 2: Expanding ISR for partition [othertopic,1] from 1,2 to 1,2,0 (kafka.cluster.Partition)
+[2016-11-15 12:01:48,116] INFO [ReplicaFetcherManager on broker 0] Removed fetcher for partitions [mytopic,0] (kafka.server.ReplicaFetcherManager)
+[2016-11-15 12:05:10,343] INFO [ReplicaFetcherManager on broker 2] Removed fetcher for partitions [othertopic,2] (kafka.server.ReplicaFetcherManager)
+[2016-11-15 12:05:10,344] INFO Truncating log othertopic-2 to offset 3. (kafka.log.Log)
+[2016-11-15 12:05:10,345] INFO [ReplicaFetcherManager on broker 0] Removed fetcher for partitions [othertopic,2] (kafka.server.ReplicaFetcherManager)
+[2016-11-15 12:05:10,350] INFO [ReplicaFetcherManager on broker 2] Added fetcher for partitions List([[othertopic,2], initOffset 3 to broker BrokerEndPoint(0,172.16.26.72,9092)] ) (kafka.server.ReplicaFetcherManager)
+[2016-11-15 12:05:10,353] INFO [ReplicaFetcherThread-0-0], Starting  (kafka.server.ReplicaFetcherThread)
+[2016-11-15 12:10:36,994] INFO [Group Metadata Manager on Broker 2]: Removed 0 expired offsets in 1 milliseconds. (kafka.coordinator.GroupMetadataManager)
+[2016-11-15 12:11:47,518] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.GroupMetadataManager)
+[2016-11-15 12:19:46,793] INFO [ReplicaFetcherManager on broker 2] Removed fetcher for partitions [topic1,0] (kafka.server.ReplicaFetcherManager)
+[2016-11-15 12:19:46,832] INFO Completed load of log topic1-0 with log end offset 0 (kafka.log.Log)
+[2016-11-15 12:19:46,833] INFO Created log for partition [topic1,0] in /tmp/kafka-logs-2 with properties {compression.type -> producer, file.delete.delay.ms -> 60000, max.message.bytes -> 1000012, min.insync.replicas -> 1, segment.jitter.ms -> 0, preallocate -> false, min.cleanable.dirty.ratio -> 0.5, index.interval.bytes -> 4096, unclean.leader.election.enable -> true, retention.bytes -> -1, delete.retention.ms -> 86400000, cleanup.policy -> delete, flush.ms -> 9223372036854775807, segment.ms -> 604800000, segment.bytes -> 1073741824, retention.ms -> 604800000, segment.index.bytes -> 10485760, flush.messages -> 9223372036854775807}. (kafka.log.LogManager)
+[2016-11-15 12:19:46,835] INFO Partition [topic1,0] on broker 2: No checkpointed highwatermark is found for partition [topic1,0] (kafka.cluster.Partition)
+[2016-11-15 12:20:36,970] INFO [Group Metadata Manager on Broker 2]: Removed 0 expired offsets in 1 milliseconds. (kafka.coordinator.GroupMetadataManager)
+[2016-11-15 12:21:47,498] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 1 milliseconds. (kafka.coordinator.GroupMetadataManager)
+[2016-11-15 12:23:11,404] INFO [Kafka Server 2], shutting down (kafka.server.KafkaServer)
+[2016-11-15 12:23:11,405] INFO [Kafka Server 2], Starting controlled shutdown (kafka.server.KafkaServer)
+[2016-11-15 12:23:11,439] INFO [ReplicaFetcherManager on broker 2] Removed fetcher for partitions [__consumer_offsets,40] (kafka.server.ReplicaFetcherManager)
+[2016-11-15 12:23:11,457] INFO [ReplicaFetcherManager on broker 2] Removed fetcher for partitions [__consumer_offsets,40] (kafka.server.ReplicaFetcherManager)
+[2016-11-15 12:23:11,498] INFO [ReplicaFetcherManager on broker 2] Removed fetcher for partitions [__consumer_offsets,39] (kafka.server.ReplicaFetcherManager)
+[2016-11-15 12:23:11,498] INFO Truncating log __consumer_offsets-39 to offset 0. (kafka.log.Log)
+[2016-11-15 12:23:11,508] INFO [ReplicaFetcherManager on broker 2] Removed fetcher for partitions [__consumer_offsets,32] (kafka.server.ReplicaFetcherManager)
+[2016-11-15 12:23:11,514] INFO [ReplicaFetcherManager on broker 2] Removed fetcher for partitions [__consumer_offsets,32] (kafka.server.ReplicaFetcherManager)
+[2016-11-15 12:23:11,515] INFO [ReplicaFetcherManager on broker 2] Removed fetcher for partitions [othertopic,2] (kafka.server.ReplicaFetcherManager)
+[2016-11-15 12:23:11,515] INFO [ReplicaFetcherThread-0-0], Shutting down (kafka.server.ReplicaFetcherThread)
+[2016-11-15 12:23:11,522] INFO [ReplicaFetcherManager on broker 0] Removed fetcher for partitions [othertopic,2] (kafka.server.ReplicaFetcherManager)
+[2016-11-15 12:23:11,689] INFO [ReplicaFetcherManager on broker 0] Removed fetcher for partitions [othertopic,1] (kafka.server.ReplicaFetcherManager)
+[2016-11-15 12:23:11,689] INFO Truncating log othertopic-1 to offset 3. (kafka.log.Log)
+[2016-11-15 12:23:11,692] INFO [ReplicaFetcherManager on broker 0] Added fetcher for partitions List([[othertopic,1], initOffset 3 to broker BrokerEndPoint(1,172.16.26.72,9093)] ) (kafka.server.ReplicaFetcherManager)
+[2016-11-15 12:23:11,693] INFO [ReplicaFetcherThread-0-2], Shutting down (kafka.server.ReplicaFetcherThread)
+[2016-11-15 12:23:11,893] INFO [ReplicaFetcherThread-0-0], Stopped  (kafka.server.ReplicaFetcherThread)
+[2016-11-15 12:23:11,893] INFO [ReplicaFetcherThread-0-0], Shutdown completed (kafka.server.ReplicaFetcherThread)
+[2016-11-15 12:23:11,898] INFO [ReplicaFetcherManager on broker 2] Removed fetcher for partitions [othertopic,2] (kafka.server.ReplicaFetcherManager)
+[2016-11-15 12:23:11,899] INFO [ReplicaFetcherManager on broker 2] Removed fetcher for partitions [__consumer_offsets,13] (kafka.server.ReplicaFetcherManager)
+[2016-11-15 12:23:11,900] INFO Truncating log __consumer_offsets-13 to offset 0. (kafka.log.Log)
+[2016-11-15 12:23:11,906] INFO [ReplicaFetcherManager on broker 2] Removed fetcher for partitions [__consumer_offsets,21] (kafka.server.ReplicaFetcherManager)
+[2016-11-15 12:23:11,907] INFO Truncating log __consumer_offsets-21 to offset 0. (kafka.log.Log)
+[2016-11-15 12:23:11,910] INFO [ReplicaFetcherManager on broker 2] Removed fetcher for partitions [__consumer_offsets,12] (kafka.server.ReplicaFetcherManager)
+[2016-11-15 12:23:11,912] INFO [ReplicaFetcherManager on broker 2] Removed fetcher for partitions [__consumer_offsets,12] (kafka.server.ReplicaFetcherManager)
+[2016-11-15 12:23:11,914] INFO [ReplicaFetcherManager on broker 2] Removed fetcher for partitions [__consumer_offsets,7] (kafka.server.ReplicaFetcherManager)
+[2016-11-15 12:23:11,914] INFO Truncating log __consumer_offsets-7 to offset 0. (kafka.log.Log)
+[2016-11-15 12:23:11,918] INFO [ReplicaFetcherManager on broker 2] Removed fetcher for partitions [__consumer_offsets,18] (kafka.server.ReplicaFetcherManager)
+[2016-11-15 12:23:11,920] INFO [ReplicaFetcherManager on broker 2] Removed fetcher for partitions [__consumer_offsets,18] (kafka.server.ReplicaFetcherManager)
+[2016-11-15 12:23:11,920] INFO [ReplicaFetcherManager on broker 2] Removed fetcher for partitions [__consumer_offsets,24] (kafka.server.ReplicaFetcherManager)
+[2016-11-15 12:23:11,922] INFO [ReplicaFetcherManager on broker 2] Removed fetcher for partitions [__consumer_offsets,24] (kafka.server.ReplicaFetcherManager)
+[2016-11-15 12:23:11,923] INFO [ReplicaFetcherManager on broker 2] Removed fetcher for partitions [__consumer_offsets,26] (kafka.server.ReplicaFetcherManager)
+[2016-11-15 12:23:11,925] INFO [ReplicaFetcherManager on broker 2] Removed fetcher for partitions [__consumer_offsets,26] (kafka.server.ReplicaFetcherManager)
+[2016-11-15 12:23:11,926] INFO [ReplicaFetcherManager on broker 2] Removed fetcher for partitions [__consumer_offsets,19] (kafka.server.ReplicaFetcherManager)
+[2016-11-15 12:23:11,926] INFO Truncating log __consumer_offsets-19 to offset 0. (kafka.log.Log)
+[2016-11-15 12:23:11,931] INFO [ReplicaFetcherManager on broker 2] Removed fetcher for partitions [__consumer_offsets,22] (kafka.server.ReplicaFetcherManager)
+[2016-11-15 12:23:11,939] INFO [ReplicaFetcherManager on broker 2] Removed fetcher for partitions [__consumer_offsets,22] (kafka.server.ReplicaFetcherManager)
+[2016-11-15 12:23:11,941] INFO [ReplicaFetcherManager on broker 2] Removed fetcher for partitions [__consumer_offsets,36] (kafka.server.ReplicaFetcherManager)
+[2016-11-15 12:23:11,943] INFO [ReplicaFetcherManager on broker 2] Removed fetcher for partitions [__consumer_offsets,36] (kafka.server.ReplicaFetcherManager)
+[2016-11-15 12:23:11,945] INFO [ReplicaFetcherManager on broker 2] Removed fetcher for partitions [__consumer_offsets,49] (kafka.server.ReplicaFetcherManager)
+[2016-11-15 12:23:11,945] INFO Truncating log __consumer_offsets-49 to offset 0. (kafka.log.Log)
+[2016-11-15 12:23:11,951] INFO [ReplicaFetcherManager on broker 2] Removed fetcher for partitions [__consumer_offsets,27] (kafka.server.ReplicaFetcherManager)
+[2016-11-15 12:23:11,952] INFO Truncating log __consumer_offsets-27 to offset 0. (kafka.log.Log)
+[2016-11-15 12:23:11,959] INFO [ReplicaFetcherManager on broker 2] Removed fetcher for partitions [__consumer_offsets,11] (kafka.server.ReplicaFetcherManager)
+[2016-11-15 12:23:11,959] INFO Truncating log __consumer_offsets-11 to offset 0. (kafka.log.Log)
+[2016-11-15 12:23:11,960] INFO [Kafka Server 2], Controlled shutdown succeeded (kafka.server.KafkaServer)
+[2016-11-15 12:23:11,962] INFO [Socket Server on Broker 2], Shutting down (kafka.network.SocketServer)
+[2016-11-15 12:23:11,997] INFO [ReplicaFetcherManager on broker 2] Removed fetcher for partitions [__consumer_offsets,46] (kafka.server.ReplicaFetcherManager)
+[2016-11-15 12:23:12,001] INFO [ReplicaFetcherThread-0-2], Stopped  (kafka.server.ReplicaFetcherThread)
+[2016-11-15 12:23:12,002] INFO [ReplicaFetcherThread-0-2], Shutdown completed (kafka.server.ReplicaFetcherThread)
+[2016-11-15 12:23:12,004] INFO [Socket Server on Broker 2], Shutdown completed (kafka.network.SocketServer)
+[2016-11-15 12:23:12,005] INFO [Kafka Request Handler on Broker 2], shutting down (kafka.server.KafkaRequestHandlerPool)
+[2016-11-15 12:23:12,013] INFO [Kafka Request Handler on Broker 2], shut down completely (kafka.server.KafkaRequestHandlerPool)
+[2016-11-15 12:23:12,017] INFO [ReplicaFetcherManager on broker 0] Removed fetcher for partitions  (kafka.server.ReplicaFetcherManager)
+[2016-11-15 12:23:12,019] INFO [ReplicaFetcherManager on broker 0] Added fetcher for partitions List() (kafka.server.ReplicaFetcherManager)
+[2016-11-15 12:23:12,021] INFO [ThrottledRequestReaper-Produce], Shutting down (kafka.server.ClientQuotaManager$ThrottledRequestReaper)
+[2016-11-15 12:23:12,744] INFO [ThrottledRequestReaper-Produce], Stopped  (kafka.server.ClientQuotaManager$ThrottledRequestReaper)
+[2016-11-15 12:23:12,744] INFO [ThrottledRequestReaper-Produce], Shutdown completed (kafka.server.ClientQuotaManager$ThrottledRequestReaper)
+[2016-11-15 12:23:12,744] INFO [ThrottledRequestReaper-Fetch], Shutting down (kafka.server.ClientQuotaManager$ThrottledRequestReaper)
+[2016-11-15 12:23:12,887] INFO [ThrottledRequestReaper-Fetch], Stopped  (kafka.server.ClientQuotaManager$ThrottledRequestReaper)
+[2016-11-15 12:23:12,887] INFO [ThrottledRequestReaper-Fetch], Shutdown completed (kafka.server.ClientQuotaManager$ThrottledRequestReaper)
+[2016-11-15 12:23:12,888] INFO [KafkaApi-2] Shutdown complete. (kafka.server.KafkaApis)
+[2016-11-15 12:23:12,889] INFO [Replica Manager on Broker 2]: Shutting down (kafka.server.ReplicaManager)
+[2016-11-15 12:23:12,890] INFO [ReplicaFetcherManager on broker 2] shutting down (kafka.server.ReplicaFetcherManager)
+[2016-11-15 12:23:12,891] INFO [ReplicaFetcherThread-0-1], Shutting down (kafka.server.ReplicaFetcherThread)
+[2016-11-15 12:23:13,195] INFO [ReplicaFetcherThread-0-1], Stopped  (kafka.server.ReplicaFetcherThread)
+[2016-11-15 12:23:13,195] INFO [ReplicaFetcherThread-0-1], Shutdown completed (kafka.server.ReplicaFetcherThread)
+[2016-11-15 12:23:13,197] INFO [ReplicaFetcherManager on broker 2] shutdown completed (kafka.server.ReplicaFetcherManager)
+[2016-11-15 12:23:13,197] INFO [ExpirationReaper-2], Shutting down (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2016-11-15 12:23:13,263] INFO [ExpirationReaper-2], Stopped  (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2016-11-15 12:23:13,263] INFO [ExpirationReaper-2], Shutdown completed (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2016-11-15 12:23:13,263] INFO [ExpirationReaper-2], Shutting down (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2016-11-15 12:23:13,277] INFO [ExpirationReaper-2], Stopped  (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2016-11-15 12:23:13,277] INFO [ExpirationReaper-2], Shutdown completed (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2016-11-15 12:23:13,281] INFO [Replica Manager on Broker 2]: Shut down completely (kafka.server.ReplicaManager)
+[2016-11-15 12:23:13,281] INFO Shutting down. (kafka.log.LogManager)
+[2016-11-15 12:23:13,350] INFO Shutdown complete. (kafka.log.LogManager)
+[2016-11-15 12:23:13,351] INFO [GroupCoordinator 2]: Shutting down. (kafka.coordinator.GroupCoordinator)
+[2016-11-15 12:23:13,352] INFO [ExpirationReaper-2], Shutting down (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2016-11-15 12:23:13,467] INFO [ExpirationReaper-2], Stopped  (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2016-11-15 12:23:13,467] INFO [ExpirationReaper-2], Shutdown completed (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2016-11-15 12:23:13,467] INFO [ExpirationReaper-2], Shutting down (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2016-11-15 12:23:13,481] INFO [ExpirationReaper-2], Stopped  (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2016-11-15 12:23:13,481] INFO [ExpirationReaper-2], Shutdown completed (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2016-11-15 12:23:13,482] INFO [GroupCoordinator 2]: Shutdown complete. (kafka.coordinator.GroupCoordinator)
+[2016-11-15 12:23:13,505] INFO [Kafka Server 2], shut down completed (kafka.server.KafkaServer)
+[2016-11-15 12:23:13,700] INFO [ReplicaFetcherManager on broker 0] Removed fetcher for partitions  (kafka.server.ReplicaFetcherManager)
+[2016-11-15 12:23:13,701] INFO [ReplicaFetcherManager on broker 0] Added fetcher for partitions List() (kafka.server.ReplicaFetcherManager)
+[2016-11-15 12:24:22,387] INFO Partition [othertopic,2] on broker 0: Expanding ISR for partition [othertopic,2] from 1,0 to 1,0,2 (kafka.cluster.Partition)
+[2016-11-15 12:24:57,018] INFO [Kafka Server 0], shutting down (kafka.server.KafkaServer)
+[2016-11-15 12:24:57,019] INFO [Kafka Server 0], Starting controlled shutdown (kafka.server.KafkaServer)
+[2016-11-15 12:24:57,054] INFO [ReplicaFetcherManager on broker 0] Removed fetcher for partitions [othertopic,0] (kafka.server.ReplicaFetcherManager)
+[2016-11-15 12:24:57,074] INFO [ReplicaFetcherManager on broker 0] Removed fetcher for partitions [othertopic,0] (kafka.server.ReplicaFetcherManager)
+[2016-11-15 12:24:57,080] INFO [ReplicaFetcherManager on broker 0] Removed fetcher for partitions [othertopic,1] (kafka.server.ReplicaFetcherManager)
+[2016-11-15 12:24:57,080] INFO [ReplicaFetcherThread-0-1], Shutting down (kafka.server.ReplicaFetcherThread)
+[2016-11-15 12:24:57,102] INFO [Kafka Server 0], Controlled shutdown succeeded (kafka.server.KafkaServer)
+[2016-11-15 12:24:57,108] INFO [Socket Server on Broker 0], Shutting down (kafka.network.SocketServer)
+[2016-11-15 12:24:57,137] INFO [Socket Server on Broker 0], Shutdown completed (kafka.network.SocketServer)
+[2016-11-15 12:24:57,138] INFO [Kafka Request Handler on Broker 0], shutting down (kafka.server.KafkaRequestHandlerPool)
+[2016-11-15 12:24:57,200] INFO [ReplicaFetcherThread-0-1], Stopped  (kafka.server.ReplicaFetcherThread)
+[2016-11-15 12:24:57,200] INFO [ReplicaFetcherThread-0-1], Shutdown completed (kafka.server.ReplicaFetcherThread)
+[2016-11-15 12:24:57,201] INFO [ReplicaFetcherManager on broker 0] Removed fetcher for partitions [othertopic,1] (kafka.server.ReplicaFetcherManager)
+[2016-11-15 12:24:57,203] INFO [Kafka Request Handler on Broker 0], shut down completely (kafka.server.KafkaRequestHandlerPool)
+[2016-11-15 12:24:57,207] INFO [ThrottledRequestReaper-Produce], Shutting down (kafka.server.ClientQuotaManager$ThrottledRequestReaper)
+[2016-11-15 12:24:57,266] INFO [ThrottledRequestReaper-Produce], Stopped  (kafka.server.ClientQuotaManager$ThrottledRequestReaper)
+[2016-11-15 12:24:57,266] INFO [ThrottledRequestReaper-Produce], Shutdown completed (kafka.server.ClientQuotaManager$ThrottledRequestReaper)
+[2016-11-15 12:24:57,266] INFO [ThrottledRequestReaper-Fetch], Shutting down (kafka.server.ClientQuotaManager$ThrottledRequestReaper)
+[2016-11-15 12:24:58,267] INFO [ThrottledRequestReaper-Fetch], Stopped  (kafka.server.ClientQuotaManager$ThrottledRequestReaper)
+[2016-11-15 12:24:58,267] INFO [ThrottledRequestReaper-Fetch], Shutdown completed (kafka.server.ClientQuotaManager$ThrottledRequestReaper)
+[2016-11-15 12:24:58,267] INFO [KafkaApi-0] Shutdown complete. (kafka.server.KafkaApis)
+[2016-11-15 12:24:58,269] INFO [Replica Manager on Broker 0]: Shutting down (kafka.server.ReplicaManager)
+[2016-11-15 12:24:58,269] INFO [ReplicaFetcherManager on broker 0] shutting down (kafka.server.ReplicaFetcherManager)
+[2016-11-15 12:24:58,270] INFO [ReplicaFetcherManager on broker 0] shutdown completed (kafka.server.ReplicaFetcherManager)
+[2016-11-15 12:24:58,270] INFO [ExpirationReaper-0], Shutting down (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2016-11-15 12:24:58,370] INFO [ExpirationReaper-0], Stopped  (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2016-11-15 12:24:58,370] INFO [ExpirationReaper-0], Shutdown completed (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2016-11-15 12:24:58,371] INFO [ExpirationReaper-0], Shutting down (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2016-11-15 12:24:58,520] INFO [ExpirationReaper-0], Stopped  (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2016-11-15 12:24:58,520] INFO [ExpirationReaper-0], Shutdown completed (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2016-11-15 12:24:58,522] INFO [Replica Manager on Broker 0]: Shut down completely (kafka.server.ReplicaManager)
+[2016-11-15 12:24:58,523] INFO Shutting down. (kafka.log.LogManager)
+[2016-11-15 12:24:58,599] INFO Shutdown complete. (kafka.log.LogManager)
+[2016-11-15 12:24:58,600] INFO [GroupCoordinator 0]: Shutting down. (kafka.coordinator.GroupCoordinator)
+[2016-11-15 12:24:58,601] INFO [ExpirationReaper-0], Shutting down (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2016-11-15 12:24:58,721] INFO [ExpirationReaper-0], Stopped  (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2016-11-15 12:24:58,721] INFO [ExpirationReaper-0], Shutdown completed (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2016-11-15 12:24:58,721] INFO [ExpirationReaper-0], Shutting down (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2016-11-15 12:24:58,925] INFO [ExpirationReaper-0], Stopped  (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2016-11-15 12:24:58,925] INFO [ExpirationReaper-0], Shutdown completed (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2016-11-15 12:24:58,927] INFO [GroupCoordinator 0]: Shutdown complete. (kafka.coordinator.GroupCoordinator)
+[2016-11-15 12:24:58,936] INFO [Kafka Server 0], shut down completed (kafka.server.KafkaServer)

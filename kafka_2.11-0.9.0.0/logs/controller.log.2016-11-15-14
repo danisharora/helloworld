@@ -1,0 +1,5 @@
+[2016-11-15 15:00:15,924] DEBUG [Controller 0]: Controller resigning, broker id 0 (kafka.controller.KafkaController)
+[2016-11-15 15:00:15,926] DEBUG [Controller 0]: De-registering IsrChangeNotificationListener (kafka.controller.KafkaController)
+[2016-11-15 15:00:15,928] INFO [Partition state machine on Controller 0]: Stopped partition state machine (kafka.controller.PartitionStateMachine)
+[2016-11-15 15:00:15,928] INFO [Replica state machine on controller 0]: Stopped replica state machine (kafka.controller.ReplicaStateMachine)
+[2016-11-15 15:00:15,929] INFO [Controller 0]: Broker 0 resigned as the controller (kafka.controller.KafkaController)
